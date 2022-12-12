@@ -1,0 +1,60 @@
+.ssiButton {
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    width: 270px;
+}
+
+.providerButton {
+    background-color: #4c84af;
+    border-color: #3a64a9;
+}
+
+.loginButton {
+    background-color: #4c84af;
+    border-color: #3a64a9;
+}
+
+.signupButton {
+    background-color: #4c84af;
+    border-color: #3a64a9;
+}
+
+#qrcode {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    mix-blend-mode: multiply;
+}
+
+#ssipluginmessage {
+    margin-top: 20px;
+}
+
+#ssishowproviders{
+    margin-bottom: 20px;
+}
+
+.loading-ring {
+    display: none;
+    width: 30px;
+    height: 30px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #2b2b2b;
+    border-color: #2b2b2b transparent #2b2b2b transparent;
+    animation: loading-ring 1.2s linear infinite;
+}
+@keyframes loading-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

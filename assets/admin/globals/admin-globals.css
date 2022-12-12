@@ -1,0 +1,68 @@
+.trinsic-chat-title {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    margin: 1em;
+}
+
+.trinsic-chat-connectionId {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+#trinsic_connectionId {
+    width: 22em;
+}
+
+.trinsic-chat-textarea {
+    display: inline-block;
+    vertical-align: middle;
+    resize: both;
+}
+
+.trinsic-chat-send {
+    display: inline-block;
+    vertical-align: middle;
+    height: 2.5em;
+    border-radius: 0.5em;
+    border-style: solid;
+    border-color: #0c0c0c;
+    border-width: 0.05em;
+}
+
+.trinsic-chat-message {
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+
+.trinsic-chat {
+    height: 300px;
+}
+
+.trinsic-chat-to, .trinsic-chat-from {
+    border-style: solid;
+    border-radius: 0.5em;
+    border-width: 0.1em;
+    height: 2em;
+    width: fit-content;
+    line-height: 2em;
+    padding: 0.5em 1em;
+    margin: 0.9em;
+}
+
+.trinsic-chat-from {
+    background-color: rgba(255, 0, 0, 0.2);
+    border-color: rgb(255, 0, 0);
+}
+
+.trinsic-chat-to {
+    background-color: rgba(0, 132, 255, 0.2);
+    border-color: rgb(0, 132, 255);
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.trinsic-chat-messages {
+    min-height: 4em;
+}
